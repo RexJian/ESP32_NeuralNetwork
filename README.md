@@ -13,6 +13,20 @@ In the project, we aim to use the ADXL345 to collect data. Subsequently, we will
 [ESP-IDF Branch 5.0](https://github.com/espressif/esp-idf) :  Provide a comprehensive environment with rich features, RTOS support, and continuous updates.
 
 ### File Description
+#### [ADXL345_CollectData.c](https://github.com/RexJian/ESP32_NeuralNetwork/blob/main/collect_data/ADXL345_CollectData.c) : Collect data from the ADXL345 and export the data as a log file  
+The program operates according to the following steps  
+  
+1. Connect the ADXL345 to the ESP32 using SPI communication  
+  
+2. When the DIP switch is turned on, it will record ADXL345 3-axis data.  
+  
+3. The data will undergo a series of preprocessing actions, such as adjusting the data length and normalizing the data.  
+  
+4. When the DIP switch is turned off, display all data on Putty.
+
+5. Export the Putty log file to the specified data path.   
+
+
 #### [SwitchCombineModel.c](https://github.com/RexJian/ESP32_NeuralNetwork/blob/main/ESP32_CombineModel/SwitchCombineModel.c) : Recognize handwritten equation
 The program operates according to the following steps  
   
