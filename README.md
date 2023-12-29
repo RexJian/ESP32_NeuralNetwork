@@ -3,6 +3,7 @@ In the project, we aim to use the ADXL345 to collect data. Subsequently, we will
 ## Content
 * Develope Framework and IDE
 * File Description
+* Demo Video Link
 * Author
 ### Develope Framework and IDE
 [VS Code](https://code.visualstudio.com/) : Connect Esp32 and ADXL345  
@@ -12,3 +13,5 @@ In the project, we aim to use the ADXL345 to collect data. Subsequently, we will
 [ESP-IDF Branch 5.0](https://github.com/espressif/esp-idf) :  Provide a comprehensive environment with rich features, RTOS support, and continuous updates.
 
 ### File Description
+#### [SwitchCombineModel](https://github.com/RexJian/ESP32_NeuralNetwork/blob/main/ESP32_CombineModel/SwitchCombineModel.c)
+
