@@ -16,15 +16,14 @@ In the project, we aim to use the ADXL345 to collect data. Subsequently, we will
 #### [SwitchCombineModel.c](https://github.com/RexJian/ESP32_NeuralNetwork/blob/main/ESP32_CombineModel/SwitchCombineModel.c) : Recognize handwritten equation
 The program operates according to the following steps  
   
-1. Using SPI communication connect ADXL345 and ESP32  
+1. Connect the ADXL345 to the ESP32 using SPI communication  
   
-2. When the DIP switch turn on , it would record ADXL345 3 axis data  
+2. When the DIP switch is turned on, it will record ADXL345 3-axis data.  
   
-3. Data would be through a series of preprocessing acctions like adjust the data length and normalize data  
+3. The data will undergo a series of preprocessing actions, such as adjusting the data length and normalizing the data.  
   
-4. When the DIP switch turn off , data would be the input of model , then the model would recognize the data to a number  
+4. When the DIP switch is turned off, the data serves as the input for the model, which then recognizes the data and outputs a corresponding number.  
   
-5. Get the complete equation and calculate the equation answer .  
-
+5. Retrieve the entire equation and compute the corresponding answer.  
 
 
