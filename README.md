@@ -27,6 +27,24 @@ The program operates according to the following steps
 5. Export the Putty log file to the specified data path.   
 
 
+#### [Train Folder](https://github.com/RexJian/ESP32_NeuralNetwork/tree/main/Train) : Train Model  
+The program operates according to the following steps
+
+1. Set hyperparameter, such as hidden layer neurons number and learning rate.   
+
+2. Initial model weights.  
+
+3. Load 3-axis train data log file.
+
+4. Start train.  
+  
+5. Load 3-axis test data log file.
+  
+6. Start test.   
+
+7. Show the weights and test result.
+   
+   
 #### [SwitchCombineModel.c](https://github.com/RexJian/ESP32_NeuralNetwork/blob/main/ESP32_CombineModel/SwitchCombineModel.c) : Recognize handwritten equation
 The program operates according to the following steps  
   
