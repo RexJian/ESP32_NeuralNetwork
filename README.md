@@ -3,8 +3,8 @@ In the project, we aim to use the ADXL345 to collect data. Subsequently, we will
 ## Content
 * Develope Framework and IDE
 * File Description
-* Demo Video Link
-* Author
+* Demo Video 
+* Contributor
 ### Develope Framework and IDE
 [VS Code](https://code.visualstudio.com/) : Connect Esp32 and ADXL345  
   
@@ -56,6 +56,12 @@ The program operates according to the following steps
   
 4. When the DIP switch is turned off, the data serves as the input for the model, which then recognizes the data and outputs a corresponding number.  
   
-5. Retrieve the entire equation and compute the corresponding answer.  
+5. Retrieve the entire equation and compute the corresponding answer.
+
+### Demo Video
+
+### Contributor
+yuio010785@gmail.com
+
 
 
