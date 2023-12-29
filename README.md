@@ -13,5 +13,18 @@ In the project, we aim to use the ADXL345 to collect data. Subsequently, we will
 [ESP-IDF Branch 5.0](https://github.com/espressif/esp-idf) :  Provide a comprehensive environment with rich features, RTOS support, and continuous updates.
 
 ### File Description
-#### [SwitchCombineModel](https://github.com/RexJian/ESP32_NeuralNetwork/blob/main/ESP32_CombineModel/SwitchCombineModel.c)
+#### [SwitchCombineModel.c](https://github.com/RexJian/ESP32_NeuralNetwork/blob/main/ESP32_CombineModel/SwitchCombineModel.c) : Recognize handwritten equation
+The program operates according to the following steps  
+  
+1. Using SPI communication connect ADXL345 and ESP32  
+  
+2. When the DIP switch turn on , it would record ADXL345 3 axis data  
+  
+3. Data would be through a series of preprocessing acctions like adjust the data length and normalize data  
+  
+4. When the DIP switch turn off , data would be the input of model , then the model would recognize the data to a number  
+  
+5. Get the complete equation and calculate the equation answer .  
+
+
 
