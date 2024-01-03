@@ -44,7 +44,13 @@ The program operates according to the following steps
 
 7. Show the weights and test result.
    
-   
+#### [main.py](https://github.com/RexJian/ESP32_NeuralNetwork/blob/main/NumberAnalysis/main.py) : Analyze data and draw it to a graph   
+The program operates according to the following steps
+
+1. Load data
+
+2. Draw the graphs
+
 #### [SwitchCombineModel.c](https://github.com/RexJian/ESP32_NeuralNetwork/blob/main/ESP32_CombineModel/SwitchCombineModel.c) : Recognize handwritten equation
 The program operates according to the following steps  
   
