@@ -65,7 +65,10 @@ The program operates according to the following steps
 5. Retrieve the entire equation and compute the corresponding answer.
 
 ### Demo Video  
-<img src="https://github.com/RexJian/ESP32_NeuralNetwork/blob/43b15cdea8ae4bc9a075f7ca945e9ec2f4806fd7/Demo.gif" alt="test" width=700 height=400>
+[Youtube Link](https://www.youtube.com/watch?v=Jkv9Nprgat0)  
+<img src="https://github.com/RexJian/ESP32_NeuralNetwork/blob/43b15cdea8ae4bc9a075f7ca945e9ec2f4806fd7/Demo.gif" alt="test" width=700 height=400>   
+ 
+
 
 ### Contributor
 Bi-Cian Jian : yuio010785@gmail.com  
