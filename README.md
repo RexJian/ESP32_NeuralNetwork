@@ -64,10 +64,12 @@ The program operates according to the following steps
   
 5. Retrieve the entire equation and compute the corresponding answer.
 
-### Demo Video
+### Demo Video  
+<img src="https://github.com/RexJian/ESP32_NeuralNetwork/blob/43b15cdea8ae4bc9a075f7ca945e9ec2f4806fd7/Demo.gif" alt="test" width=700 height=400>
 
 ### Contributor
-yuio010785@gmail.com
+Bi-Cian Jian : yuio010785@gmail.com  
+Ya-Chu Yang  : yagiyang@gmail.com
 
 
 
