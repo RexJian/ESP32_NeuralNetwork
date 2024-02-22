@@ -72,7 +72,7 @@ The program operates according to the following steps
 
 ### Contributor
 Bi-Cian Jian  : yuio010785@gmail.com  
-Ya-Chu Yang   : yagiyang@gmail.com
+Ya-Chu Yang   : yagiyang@gmail.com  
 Bo-Cheng Zeng : cs4150252@gmail.com
 
 
